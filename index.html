@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For You 💖</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background: #fff7f9; color:#222; }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 28px 18px 60px; }
+    .hero {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      border-radius: 18px;
+      padding: 26px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+      align-items: center;
+    }
+    .hero img { width: 100%; border-radius: 14px; object-fit: cover; }
+    h1 { margin: 0 0 10px; font-size: 30px; }
+    .sub { opacity: 0.85; line-height: 1.6; }
+    .card {
+      background: white;
+      margin-top: 18px;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .grid figure { margin:0; background:#fff; border-radius: 14px; overflow:hidden; }
+    .grid img { width:100%; height: 170px; object-fit: cover; display:block; }
+    .grid figcaption { padding: 10px 10px 12px; font-size: 13px; opacity:0.85; }
+    .footer { text-align:center; margin-top: 20px; opacity:0.7; font-size: 13px; }
+    @media (max-width: 780px) {
+      .hero { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .grid img { height: 160px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <h1>Happy Valentine’s Day, bb 💖</h1>
+        <div class="sub">
+          Since <b>12 Oct 2024</b>, life has been louder, warmer, and somehow more meaningful with you in it.<br><br>
+          I know work has been heavy for you this Q1, but I want you to remember this: I’m always on your side.
+          When you’re tired, I’ll be your rest. When you doubt yourself, I’ll be your reminder.
+        </div>
+      </div>
+      <img src="https://placekitten.com/700/700" alt="Us">
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 10px;">A small note</h2>
+      <div style="line-height:1.7;">
+        Thank you for loving me in the everyday moments — the normal days, the messy days, and the “eh why like that” days.<br><br>
+        I’m proud of you. I’m here for you. And I’m not going anywhere.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="margin:0 0 10px;">Little memories I keep replaying</h2>
+      <div class="grid">
+        <figure>
+          <img src="https://placekitten.com/600/400" alt="">
+          <figcaption>KL: our “just walk only” turned into an adventure.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placekitten.com/601/400" alt="">
+          <figcaption>Harbin: cold outside, but you made it cozy.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placekitten.com/602/400" alt="">
+          <figcaption>Korea: you + me + food = perfect formula.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placekitten.com/603/400" alt="">
+          <figcaption>Bintan: thank you for planning my birthday getaway.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placekitten.com/604/400" alt="">
+          <figcaption>My favourite thing: your laugh when you’re relaxed.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placekitten.com/605/400" alt="">
+          <figcaption>2026: let’s keep choosing each other.</figcaption>
+        </figure>
+      </div>
+      <div class="footer">Made with love (and minimal coding) 😌</div>
+    </div>
+  </div>
+</body>
+</html>
